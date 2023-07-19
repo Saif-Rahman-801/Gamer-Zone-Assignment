@@ -81,16 +81,16 @@
     gap: 20px;
   }
 
-  .footer-container{
+  .footer-container {
     width: 100%;
   }
 
-  .footer-li-container{
+  .footer-li-container {
     grid-template-columns: repeat(3, 1fr);
     gap: 20px;
   }
 
-  .small-list-container{
+  .small-list-container {
     grid-template-columns: repeat(2, 1fr);
   }
 }
@@ -132,7 +132,20 @@
     text-align: center;
   }
 
-  .various-game-container{
+  .various-game-container {
     width: 100%;
+  }
+
+  .footer-container {
+    width: 100%;
+  }
+
+  .footer-li-container {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+  }
+
+  .small-list-container {
+    grid-template-columns: repeat(2, 1fr);
   }
 }
