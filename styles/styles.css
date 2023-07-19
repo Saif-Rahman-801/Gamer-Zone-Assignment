@@ -190,6 +190,7 @@ a {
 
 
 .instant-games-para {
+  margin: 30px 0;
   color: #534c64;
   font-size: 18px;
   font-weight: 400;
@@ -197,16 +198,29 @@ a {
 }
 
 .img-instant-playOne {
-  position: absolute;
-  width: 45%;
+  width: 500px;
+  /* width: 100%; */
+  height: 500px;
+  /* height: auto; */
+}
+.instant-play-img-container{
+  position: relative;
 }
 
 .img-instant-playTwo {
-  position: relative;
-  top: 377px;
-  right: 160px;
-  width: 50%;
+  position: absolute;
+  top: 55%;
+  right: 70%;
+  height: 300px;
+  
 }
+
+.instant-play-content{
+  text-align: right;
+}
+
+
+
 
 .instantly-play-container{
   display: flex;
@@ -214,10 +228,3 @@ a {
   align-items: center;
 }
 
-.instant-play-content{
-  width: 40%;
-  text-align: right;
-}
-.instant-play-img{
-  width: 50%;
-}

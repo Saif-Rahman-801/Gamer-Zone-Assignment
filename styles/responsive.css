@@ -46,7 +46,30 @@
     gap: 20px;
   }
 
+  .instantly-play-container{
+    flex-direction: column;
+    gap: 30px;
+    text-align: center;
+  }
+  .img-instant-playOne{
+    width: 80%;
+    height: auto;
+    
+  }
 
+  .img-instant-playTwo{
+    width: 140px;
+    height: auto;
+    right: 65%;
+  }
+
+  .instant-play-content{
+    text-align: center;
+  }
+
+  .instant-game-title{
+    font-size: 40px;
+  }
 }
 
 /* Medium devices */
@@ -77,4 +100,13 @@
     text-align: center;
   }
 
+
+  .instantly-play-container{
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .instant-play-content{
+    text-align: center;
+  }
 }
