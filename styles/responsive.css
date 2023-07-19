@@ -81,11 +81,18 @@
     gap: 20px;
   }
 
-  /* .game-group-one-container, .game-group-two-container{
+  .footer-container{
     width: 100%;
-    gap: 10px;
+  }
+
+  .footer-li-container{
     grid-template-columns: repeat(3, 1fr);
-  } */
+    gap: 20px;
+  }
+
+  .small-list-container{
+    grid-template-columns: repeat(2, 1fr);
+  }
 }
 
 /* Medium devices */
@@ -123,5 +130,9 @@
 
   .instant-play-content {
     text-align: center;
+  }
+
+  .various-game-container{
+    width: 100%;
   }
 }
