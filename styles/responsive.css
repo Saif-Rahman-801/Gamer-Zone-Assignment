@@ -45,7 +45,7 @@
   }
 
   .hover-card-img {
-    width: 90%;
+    width: 100%;
     gap: 20px;
   }
 
@@ -83,6 +83,10 @@
   .game-group-two-container {
     grid-template-columns: repeat(2, 1fr);
     gap: 20px;
+  }
+
+  .word-gamer{
+    display: none;
   }
 
   .footer-container {
