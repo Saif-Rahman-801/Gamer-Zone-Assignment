@@ -7,6 +7,10 @@
   font-family: "Work Sans", sans-serif;
 }
 
+.shared-span {
+  color: #fa42a5;
+}
+
 .container {
   width: 85%;
   margin: 30px auto;
@@ -17,6 +21,10 @@
   font-size: 48px;
   font-weight: 600;
   text-transform: uppercase;
+}
+
+.section {
+  margin: 120px 0;
 }
 
 /* header related styles */
@@ -145,10 +153,6 @@ a {
   font-weight: 700;
 }
 
-.online-games-title span {
-  color: #fa42a5;
-}
-
 .online-games-para {
   margin: 30px 0;
   color: #534c64;
@@ -167,12 +171,53 @@ a {
   width: 50px;
 }
 
-.online-games-container{
+.online-games-container {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
 }
 
-.hover-card-img{
+.hover-card-img {
   width: 250px;
   gap: 20px;
+}
+
+/* play-instantly section styles */
+
+.instant-game-title {
+  font-weight: 700;
+}
+
+
+
+.instant-games-para {
+  color: #534c64;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+}
+
+.img-instant-playOne {
+  position: absolute;
+  width: 45%;
+}
+
+.img-instant-playTwo {
+  position: relative;
+  top: 377px;
+  right: 160px;
+  width: 50%;
+}
+
+.instantly-play-container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.instant-play-content{
+  width: 40%;
+  text-align: right;
+}
+.instant-play-img{
+  width: 50%;
 }
