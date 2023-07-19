@@ -30,7 +30,7 @@
     width: 100%;
   }
 
-  .banner-img{
+  .banner-img {
     width: 100%;
   }
 
@@ -97,6 +97,10 @@
   .small-list-container {
     grid-template-columns: repeat(2, 1fr);
   }
+
+  footer > section {
+    width: auto;
+  }
 }
 
 /* Medium devices */
@@ -151,5 +155,8 @@
 
   .small-list-container {
     grid-template-columns: repeat(2, 1fr);
+  }
+  footer > section {
+    width: auto;
   }
 }
