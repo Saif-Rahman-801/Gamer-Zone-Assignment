@@ -187,8 +187,6 @@ a {
   font-weight: 700;
 }
 
-
-
 .instant-games-para {
   margin: 30px 0;
   color: #534c64;
@@ -203,7 +201,7 @@ a {
   height: 500px;
   /* height: auto; */
 }
-.instant-play-img-container{
+.instant-play-img-container {
   position: relative;
 }
 
@@ -212,19 +210,68 @@ a {
   top: 55%;
   right: 70%;
   height: 300px;
-  
 }
 
-.instant-play-content{
+.instant-play-content {
   text-align: right;
 }
 
-
-
-
-.instantly-play-container{
+.instantly-play-container {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
+/* various game section */
+
+.gamer {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  border: none;
+  border-radius: 50px;
+  background: #fff;
+  color: #0b0223;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.game-one {
+  grid-area: one;
+}
+
+.game-two {
+  grid-area: two;
+}
+
+.game-three {
+  grid-area: three;
+}
+
+.game-five {
+  grid-area: five;
+}
+
+.game-six {
+  grid-area: six;
+}
+
+.game-seven {
+  grid-area: seven;
+}
+
+.game-eight {
+  grid-area: eight;
+}
+
+.game-nine {
+  grid-area: nine;
+}
+
+.various-game-container {
+  display: grid;
+  grid-template-areas: 
+  "one two three four five"
+  "six seven eight nine"
+  ;
+}
