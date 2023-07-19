@@ -85,8 +85,6 @@ a {
   gap: 20px;
 }
 
-
-
 .nav-link {
   display: flex;
   justify-content: center;
@@ -112,6 +110,13 @@ a {
   color: #534c64;
   font-size: 20px;
   font-weight: 500;
+}
+
+.banner-content {
+  background-image: url("../images/Group\ 14.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 50px;
 }
 
 .banner-icon {
@@ -142,6 +147,11 @@ a {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  gap: 20px;
+}
+
+.banner-img {
+  width: 60%;
 }
 
 /* Main part styles */
@@ -237,7 +247,6 @@ a {
   color: #0b0223;
   font-size: 20px;
   font-weight: 600;
-  /* width: 250px; */
 }
 
 .gamer:hover {
@@ -253,10 +262,6 @@ a {
   grid-template-columns: 1fr;
   gap: 10px;
 }
-
-/* .various-game-container button{
-  width: 200px;
-} */
 
 .game-group-one-container {
   margin-bottom: 40px;
@@ -274,47 +279,54 @@ a {
 
 /* footer section styles */
 
-footer section{
-  background: #0B0223;
+footer section {
+  width: 100%;
+  background: #0b0223;
 }
 
-.footer-container{
+.footer-container {
   text-align: center;
-  width: 60%;
-  margin: 0 auto;
   padding: 120px 0;
 }
 
-.footer-logo{
+.footer-center {
+  width: 60%;
+  margin: 0 auto;
+}
+
+.footer-logo {
   display: flex;
   justify-content: center;
   gap: 10px;
 }
 
-.footer-li-container{
+.footer-li-container {
   margin: 30px;
   display: grid;
   grid-template-columns: repeat(6, 1fr);
 }
 
-footer button{
+footer button {
   border: none;
   margin: 20px 0;
 }
 
-.small-list-container{
+.small-list-container {
   /* margin: 20px;   */
   display: grid;
   grid-template-columns: repeat(4, 1fr);
 }
-.small-list-container li, .footer-li-container li, .footer-logo h3, .footer-container p{
+.small-list-container li,
+.footer-li-container li,
+.footer-logo h3,
+.footer-container p {
   color: white;
 }
 
-.footer-container p{
+.footer-container p {
   margin-top: 50px;
 }
 
 .nav-img {
-width: 30px;
+  width: 30px;
 }
