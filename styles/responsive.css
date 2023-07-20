@@ -73,6 +73,10 @@
     font-size: 40px;
   }
 
+  .various-game-container {
+    width: 90%;
+  }
+
   .game-group-one-container {
     grid-template-columns: repeat(2, 1fr);
     gap: 20px;
