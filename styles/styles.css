@@ -156,19 +156,6 @@ a {
 }
 
 /* online-games section */
-/* 
-
-
-
-.hover-img {
-  width: 50px;
-}
-
-
-
-
-
-} */
 
 .online-games-title {
   text-align: center;
@@ -181,9 +168,8 @@ a {
   text-align: center;
   font-size: 18px;
   font-weight: 400;
-  line-height: 30px; 
+  line-height: 30px;
 }
-
 
 .card {
   position: relative;
@@ -268,9 +254,7 @@ a {
 
 .img-instant-playOne {
   width: 500px;
-  /* width: 100%; */
   height: 500px;
-  /* height: auto; */
 }
 .instant-play-img-container {
   position: relative;
