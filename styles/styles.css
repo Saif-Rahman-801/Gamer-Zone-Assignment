@@ -150,14 +150,26 @@ a {
   gap: 20px;
 }
 
-
-
 /* Main part styles */
 .main-part {
   margin: 100px 0;
 }
 
 /* online-games section */
+/* 
+
+
+
+.hover-img {
+  width: 50px;
+}
+
+
+
+
+
+} */
+
 .online-games-title {
   text-align: center;
   font-weight: 700;
@@ -169,7 +181,13 @@ a {
   text-align: center;
   font-size: 18px;
   font-weight: 400;
-  line-height: 30px; /* 166.667% */
+  line-height: 30px; 
+}
+
+
+.card {
+  position: relative;
+  display: inline-block;
 }
 
 .card-para {
@@ -177,11 +195,51 @@ a {
   font-size: 15px;
 }
 
-.hover-img {
+.hover-overlay {
+  position: relative;
+  display: inline-block;
+}
+
+.hover-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 100%;
+  height: 100%;
+  transform: translateY(100%);
+  transform: translate(-50%, -50%);
+  opacity: 0;
+  visibility: hidden;
+  background-color: rgba(0, 0, 0, 0.7);
+  color: #fff;
+  padding: 10px;
+  border-radius: 5px;
+  transition: transform 0.3s;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.hover-overlay:hover .hover-content {
+  opacity: 1;
+  visibility: visible;
+}
+
+.watch-later-icon {
+  display: block;
+  font-size: 24px;
+  text-align: center;
+  margin-bottom: 5px;
+}
+
+.watch-later-icon-img {
   width: 50px;
 }
 
-
+.watch-later-text {
+  text-align: center;
+  color: #fa42a5;
+}
 
 .online-games-container {
   display: grid;
@@ -193,8 +251,6 @@ a {
   width: 250px;
   gap: 20px;
 }
-
-
 
 /* play-instantly section styles */
 
@@ -282,7 +338,7 @@ a {
 
 /* footer section styles */
 
-footer> section {
+footer > section {
   width: 100%;
   background: #0b0223;
 }
@@ -330,7 +386,7 @@ footer button {
   margin-top: 50px;
 }
 
-footer button{
+footer button {
   border-radius: 50%;
   margin-right: 10px;
   margin-bottom: 50px;
