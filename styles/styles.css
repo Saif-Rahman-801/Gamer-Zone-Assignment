@@ -323,6 +323,11 @@ a {
 
 
 
+.various-game-container-two{
+  display: none;
+}
+
+
 /* footer section styles */
 
 footer > section {

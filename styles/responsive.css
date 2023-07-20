@@ -74,7 +74,46 @@
   }
 
   .various-game-container {
+    display: none;
     width: 90%;
+  }
+
+  .various-game-container-two img{
+    width: 30px;
+  }
+  .various-game-container-two button{
+    width: 20px;
+  }
+  .various-game-container-two p{
+    font-size: 10px;
+  }
+
+  .various-game-container-two{
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .container-one,
+  .container-two,
+  .container-three{
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(50px, 1fr));
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+  }
+  
+  .various-game-container-two button{
+    width: 50px;
+    text-align: center;
+  }
+
+  .various-game-container-two button:hover{
+    border: none;
+
   }
 
   .game-group-one-container {
